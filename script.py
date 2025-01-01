@@ -5,13 +5,13 @@ from datetime import datetime, timedelta
 
 os.chdir(r"D:\LeafDiseasesDataset\lirope\beefbesees\LeafDisease")
 
-start_date = datetime(2026, 1, 1)
-end_date = datetime(2026, 3, 23)
+start_date = datetime(2025, 1, 1)
+end_date = datetime(2025, 3, 20)
 
 current = start_date
 
 while current <= end_date:
-    commits_today = random.randint(1, 5)
+    commits_today = random.randint(1, 7)
     print(f"{current.date()} -> {commits_today} commits")
 
     for _ in range(commits_today):
