@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 
 os.chdir(r"D:\LeafDiseasesDataset\lirope\beefbesees\LeafDisease")
 
-start_date = datetime(2025, 1, 1)
-end_date = datetime(2025, 3, 20)
+start_date = datetime(2025, 3, 1)
+end_date = datetime(2026, 3, 20)
 
 current = start_date
 
